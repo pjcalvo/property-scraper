@@ -1,0 +1,13 @@
+# expected format
+# websites:
+#   - link: https://www.funda.nl/en/huur/utrecht/1000-2000/75+woonopp/3+kamers/+5km/
+#     selector: "[data-global-id] .search-result-media a"
+#     name: Funda
+
+websites:
+  - link: https://www.funda.nl/en/huur/utrecht/1000-2000/90+woonopp/3+kamers/+10km/
+    selector: "[data-global-id] .search-result-media a"
+    name: Funda
+  - link: https://www.pararius.nl/huurwoningen/utrecht/1000-2000/straal-10/3-aantalkamers/90m2
+    selector: ".listing-search-item__depiction a"
+    name: Pararius
